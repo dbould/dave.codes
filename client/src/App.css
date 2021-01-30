@@ -1,25 +1,19 @@
 .App {
-
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #282c34;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-
   .jumbotron {
     padding: 4rem 0 0 0;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,8 +35,17 @@
   }
 }
 
+.card {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
 .jumbotron {
   margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #282c34;
+  color: white;
 }
 
 #banner {
