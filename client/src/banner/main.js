@@ -1,6 +1,8 @@
+import React from 'react'
 import banner from "../img/cropped-benjiBanner5.png";
+import {Jumbotron} from "react-bootstrap";
 
-function Jumbotron() {
+function Banner() {
     return (
         <Jumbotron fluid id="banner">
             <div>
@@ -10,4 +12,4 @@ function Jumbotron() {
     )
 }
 
-export default Jumbotron;
+export default Banner;
